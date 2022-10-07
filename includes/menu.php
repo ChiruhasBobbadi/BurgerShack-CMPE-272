@@ -10,7 +10,7 @@
 
         <div class="row">
             <div class="col-4">
-                <img src="/img/menu/burger.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/burger.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">Classic cheese burger
@@ -20,7 +20,7 @@
             </div>
 
             <div class="col-4">
-                <img src="/img/menu/garlic mayo wrap.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/garlic mayo wrap.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
@@ -30,7 +30,7 @@
 
             </div>
             <div class="col-4">
-                <img src="/img/menu/fries.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/fries.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
@@ -50,7 +50,7 @@
 
 
             <div class="col-4">
-                <img src="/img/menu/nuggets.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/nuggets.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
@@ -61,7 +61,7 @@
             </div>
 
             <div class="col-4">
-                <img src="/img/menu/diet%20coke.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/diet%20coke.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">Large Diet Coke
@@ -71,7 +71,7 @@
             </div>
 
             <div class="col-4">
-                <img src="/img/menu/sugar%20donut.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/sugar%20donut.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
@@ -89,7 +89,7 @@
 
 
             <div class="col-4">
-                <img src="/img/menu/yogurt.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/yogurt.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
@@ -100,7 +100,7 @@
             </div>
 
             <div class="col-4">
-                <img src="/img/menu/diet%20coke.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/diet%20coke.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">Large Diet Coke
@@ -110,7 +110,7 @@
             </div>
 
             <div class="col-4">
-                <img src="/img/menu/sugar%20donut.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/sugar%20donut.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
