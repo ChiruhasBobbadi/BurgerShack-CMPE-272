@@ -26,7 +26,7 @@
                 <h3 class="text-center">
                    Garlic Mayo Chicken Wrap
                 </h3>
-                <h6 class="text-center">332 kCal</h6>
+                <h6 class="text-center">295 kCal</h6>
 
             </div>
             <div class="col-4">
@@ -100,23 +100,23 @@
             </div>
 
             <div class="col-4">
-                <img src="img/menu/diet%20coke.jpeg" class="img-fluid" alt="">
-                <br>
-                <br>
-                <h3 class="text-center">Large Diet Coke
-                </h3>
-                <h6 class="text-center">2 KCal</h6>
-
-            </div>
-
-            <div class="col-4">
-                <img src="img/menu/sugar%20donut.jpeg" class="img-fluid" alt="">
+                <img src="img/menu/egg muffin.jpeg" class="img-fluid" alt="">
                 <br>
                 <br>
                 <h3 class="text-center">
-                    Sugar Donuts
+                    Egg & Cheese Muffin
                 </h3>
-                <h6 class="text-center">195 KCal</h6>
+                <h6 class="text-center">295 kCal</h6>
+
+            </div>
+            <div class="col-4">
+                <img src="img/menu/mozzarella.jpeg" class="img-fluid" alt="">
+                <br>
+                <br>
+                <h3 class="text-center">
+                    Mozzarella Dippers
+                </h3>
+                <h6 class="text-center">256 kCal</h6>
 
             </div>
 

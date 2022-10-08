@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, maximum-scale=1">
 
 
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png"/>
 
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
