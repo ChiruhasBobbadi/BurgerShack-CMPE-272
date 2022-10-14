@@ -40,10 +40,10 @@ if (isset($_POST["Login"]) && !empty($_POST["Username"]) && !empty($_POST["Passw
         if ($_POST["Username"]==$user[0]  && $_POST["Password"]==$user[1]){
             $_SESSION["user"] = $_POST["Username"];
             fclose($userfile);
-            header("location: ../BurgerShack/secure_section.php");
+            header("location: ../BurgerShack-CMPE-272/secure_section.php");
             exit;
         }else{
-            header("location: ../BurgerShack/error.php");
+            header("location: ../BurgerShack-CMPE-272/error.php");
         }
     }
 }

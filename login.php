@@ -41,7 +41,7 @@
                 <div class="col-8"> <p class="lead" style="text-align: center">Login</p></div>
             </div>
 
-            <form action="/BurgerShack/validation.php" method="post">
+            <form action="/BurgerShack-CMPE-272/validation.php" method="post">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="text" name="Username" class="form-control"  placeholder="Enter email">

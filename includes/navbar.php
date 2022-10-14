@@ -6,7 +6,7 @@
             <li><a href="#menu">MENU</a></li>
             <li><a href="#news">NEWS</a></li>
             <li><a href="#devContact">Contact</a></li>
-            <li><a href="/login.php">Login</a></li>
+            <li><a href="login.php">Login</a></li>
 
 
         </ul>
