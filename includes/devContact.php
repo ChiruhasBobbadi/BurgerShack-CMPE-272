@@ -5,7 +5,7 @@
 	
         	<div>
             	<?php 
-                $devContact = fopen("txt/contacts.txt", "r");
+                $devContact = fopen("data/contacts.txt", "r");
                 while(($line=fgets($devContact))!==false){
                     echo '<p class="lead" style="color:#ffffff;font-weight:lighter">'. $line .'</p>';
                     echo "<br/>";
