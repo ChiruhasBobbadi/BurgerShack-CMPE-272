@@ -37,13 +37,39 @@
 <body>
 
 <!--todo-->
-<?php //require "includes/dbconnect.php" ?>
+<?php require "includes/dbconnect.php" ?>
 <?php require "includes/navbar.php" ?>
 <?php require "includes/home.php" ?>
 <?php require "includes/about.php" ?>
 <?php require "includes/menu.php" ?>
 <?php require "includes/news.php" ?>
+<?php require "includes/users.php" ?>
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4"><div class="container">
+            <center><h1>Enter Search Criteria</h1></center>
+            <form action="/includes/user.php" method="post">
+                <input type="text" name="name" class="form-control"  placeholder="Enter Name">
+                <br>
+                <center>OR</center>
+                <br>
+                <input type="text" name="email" class="form-control"  placeholder="Enter email">
+                <br>
+                <center>OR</center>
+                <br>
+                <input type="text" name="phone" class="form-control"  placeholder="Enter phone">
+                <br>
+                <center><input type="submit" class="btn btn-primary login" name="search"></center>
+            </form>
+        </div></div>
+    <div class="col-4"></div>
+</div>
+
 <?php require "includes/devContact.php" ?>
+
+
+
 
 
 
