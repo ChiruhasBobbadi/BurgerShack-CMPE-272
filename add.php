@@ -6,6 +6,6 @@ $sql = "INSERT INTO users (firstname,lastname,email,homeaddress,homephone,cellph
 ('".$_POST["firstname"]."', '".$_POST["lastname"]."', '".$_POST["email"]."', '".$_POST["homeaddress"]."', '".$_POST["homephone"]."', '".$_POST["cellphone"]."')";
 $conn->query($sql);
 $conn->close();
-header("location: /BurgerShack/index.php#users");
+header("location: /BurgerShack-CMPE-272/index.php#users");
 
 ?>
