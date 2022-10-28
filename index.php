@@ -37,34 +37,92 @@
 <body>
 
 <!--todo-->
-<?php require "includes/dbconnect.php" ?>
-<?php require "includes/navbar.php" ?>
-<?php require "includes/home.php" ?>
-<?php require "includes/about.php" ?>
-<?php require "includes/menu.php" ?>
-<?php require "includes/news.php" ?>
-<?php require "includes/users.php" ?>
+<?php require "dbconnect.php" ?>
+<?php require "navbar.php" ?>
+<?php require "home.php" ?>
+<?php require "about.php" ?>
+<?php require "menu.php" ?>
+<?php require "news.php" ?>
+<?php require "users.php" ?>
 
-<div class="row">
-    <div class="col-4"></div>
-    <div class="col-4"><div class="container">
-            <center><h1>Enter Search Criteria</h1></center>
-            <form action="/includes/user.php" method="post">
-                <input type="text" name="name" class="form-control"  placeholder="Enter Name">
-                <br>
-                <center>OR</center>
-                <br>
-                <input type="text" name="email" class="form-control"  placeholder="Enter email">
-                <br>
-                <center>OR</center>
-                <br>
-                <input type="text" name="phone" class="form-control"  placeholder="Enter phone">
-                <br>
-                <center><input type="submit" class="btn btn-primary login" name="search"></center>
-            </form>
-        </div></div>
-    <div class="col-4"></div>
-</div>
+
+
+<section class="main-section alabaster" id="users">
+    <div class="container fullsize">
+        <center><h1>Users</h1></center>
+        <table align = center>
+            <tr>
+
+                <td class="tableheader"><strong>First Name</strong></td>
+                <td class="tableheader"><strong>Last Name</strong></td>
+                <td class="tableheader"><strong>Email</strong></td>
+                <td class="tableheader"><strong>Home Address</strong></td>
+                <td class="tableheader"><strong>Home Phone</strong></td>
+                <td class="tableheader"><strong>Cell Phone</strong></td>
+
+            </tr>
+            <?php
+            if(isset($_POST["search"])){
+                $sql = "SELECT * FROM users WHERE";
+                if(isset($_POST["name"]) and $_POST["name"]!=""){
+                    $sql=$sql." firstname LIKE '%".$_POST["name"]."%' OR lastname LIKE '%".$_POST["name"]."%'";
+                }
+                else{
+                    $sql=$sql." firstname = '' OR lastname= ''";
+                }
+                if(isset($_POST["email"]) and $_POST["email"] != "" ){
+                    $sql=$sql."OR email LIKE '%".$_POST["email"]."%'";
+                }
+                if(isset($_POST["phone"]) and $_POST["phone"] != ""){
+                    $sql=$sql."OR homephone LIKE'%".$_POST["phone"]."%' OR cellphone LIKE '%".$_POST["phone"]."%';";
+                }
+
+                $result = $conn->query($sql);
+            }
+
+            else{
+                $sql = "SELECT * FROM users";
+                $result = $conn->query($sql);
+            }
+
+
+
+            if (mysqli_num_rows($result) === 0) {
+
+                echo "<center><h1 class='lead'> No records found </h1></center>";
+            } else {
+                while($row = $result -> fetch_assoc()){
+                    echo "<tr>";
+                    echo "<td>";
+                    echo $row["firstname"];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row["lastname"];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row["email"];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row["homeaddress"];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row["homephone"];
+                    echo "</td>";
+                    echo "<td>";
+                    echo $row["cellphone"];
+                    echo "</td>";
+                    echo "</tr>";
+                }
+            }
+
+
+            ?>
+        </table>
+
+    </div>
+</section>
+
+
 
 <?php require "includes/devContact.php" ?>
 
