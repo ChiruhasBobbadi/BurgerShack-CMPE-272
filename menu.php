@@ -3,7 +3,7 @@
 
     <?php $arr = array(
         array("id"=>0,
-            "image" => "img/menu/burger.jpeg",
+            "image" => "/BurgerShack-CMPE-272/img/menu/burger.jpeg",
             "name" => "Classic cheese burger",
             "calories" =>"298 kCal"
         ),
