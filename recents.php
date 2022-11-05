@@ -1,7 +1,7 @@
 <?php
 $arr = array(
     array('id'=>0,
-        'image' => '/img/menu/burger.jpeg',
+        'image' => '/BurgerShack-CMPE-272/img/menu/burger.jpeg',
         'name' => 'Classic cheese burger',
         'calories' =>'298 kCal',
         'description' => 'Sometimes you just want to reach for a classic. A classic 100% beef patty, and cheese; with onions, pickles, mustard and a dollop of tomato ketchup, in a soft bun. Delicious.'
