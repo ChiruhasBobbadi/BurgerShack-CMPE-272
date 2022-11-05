@@ -41,7 +41,7 @@
             "name" => " Egg & Cheese Muffin",
             "calories" =>"295 kCal"
         ), array("id"=>8,
-            "image" => "img/menu/Mozzarella.jpeg",
+            "image" => "img/menu/mozzarella.jpeg",
             "name" => "Mozzarella Dippers",
             "calories" =>"256 kCal"
         ),
