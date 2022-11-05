@@ -91,7 +91,7 @@
 
 
                  echo "<div class='col-4' id={$arr[$i]["id"]}>
-                <a href='/viewProduct.php?id={$arr[$i]["id"]}' 
+                <a href='/BurgerShack-CMPE-272/viewProduct.php?id={$arr[$i]["id"]}' 
                 
                 '>
                     <img src={$arr[$i]["image"]} class='img-fluid' alt=''>
@@ -120,7 +120,7 @@
 
 
                 echo "<div class='col-4' id={$arr[$i]["id"]}>
-                <a href='/viewProduct.php?id={$arr[$i]["id"]}'>
+                <a href='/BurgerShack-CMPE-272/viewProduct.php?id={$arr[$i]["id"]}'>
                     <img src={$arr[$i]["image"]} class='img-fluid' alt=''>
                     <br>
                     <br>
@@ -147,7 +147,7 @@
 
 
                 echo "<div class='col-4' id={$arr[$i]["id"]}>
-                 <a href='/viewProduct.php?id={$arr[$i]["id"]}'>
+                 <a href='/BurgerShack-CMPE-272/viewProduct.php?id={$arr[$i]["id"]}'>
                     <img src={$arr[$i]["image"]} class='img-fluid' alt=''>
                     <br>
                     <br>
@@ -174,7 +174,7 @@
 
 
                 echo "<div class='col-4' id={$arr[$i]["id"]}>
-               <a href='/viewProduct.php?id={$arr[$i]["id"]}'>
+               <a href='/BurgerShack-CMPE-272/viewProduct.php?id={$arr[$i]["id"]}'>
                     <img src={$arr[$i]["image"]} class='img-fluid' alt=''>
                     <br>
                     <br>

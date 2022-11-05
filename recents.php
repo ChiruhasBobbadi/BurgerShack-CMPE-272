@@ -186,7 +186,7 @@ if(sizeof($data)<5)
 
         </div>
         <div class="col-5">
-            <form action="/mostViewed.php">
+            <form action="/BurgerShack-CMPE-272/mostViewed.php">
                 <input type="submit" value="View Most Viewed Items on the Menu" />
             </form>
         </div>
