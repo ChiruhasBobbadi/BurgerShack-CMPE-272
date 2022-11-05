@@ -145,7 +145,7 @@ setcookie($cookie_name,$cookie_val,time()+60*60*24,'/');
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
 
-    <link href='BurgerShack-CMPE-272/css/style.css' rel='stylesheet' type='text/css'>
+    <link href='/BurgerShack-CMPE-272/css/style.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
           integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 
@@ -154,22 +154,8 @@ setcookie($cookie_name,$cookie_val,time()+60*60*24,'/');
 
 </head>
 <body>
-
-<nav class="main-nav-outer" id="test">
-    <div class="container">
-        <ul class="main-nav">
-            <li class="small-logo"><a href="/BurgerShack-CMPE-272/index.php"><img class="headerlogo" style="width:30%" src="/BurgerShack-CMPE-272/img/logo.png" alt=""></a></li>
-            <li><a href="/BurgerShack-CMPE-272/index.php#about">ABOUT</a></li>
-            <li><a href="/BurgerShack-CMPE-272/index.php#menu">MENU</a></li>
-            <li><a href="/BurgerShack-CMPE-272/index.php#news">NEWS</a></li>
-            <li><a href="/BurgerShack-CMPE-272/index.php#devContact">Contact</a></li>
-            <li><a href="/BurgerShack-CMPE-272/index.php#login.php">Login</a></li>
-
-
-        </ul>
-        <a class="res-nav_click" href="/BurgerShack-CMPE-272/index.php"><i class="fa-bars"></i></a>
-    </div>
-</nav>
+    
+<?php require 'nav2.php'?>
 
 <br>
 <br>
