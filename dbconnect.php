@@ -1,10 +1,10 @@
 <?php
 $servername = "127.0.0.1";
 $username = "root";
-//$password = "Password@123";
+$password = "Password@123";
 // for local machine password=> Password@123
 // for remote
-$password = "root";
+//$password = "root";
 $dbname = "burger_shack";
 
 $conn = new mysqli($servername, $username, $password, $dbname);

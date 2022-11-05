@@ -153,7 +153,7 @@ if(sizeof($data)<5)
             echo "
             
             <div class='col-2'>
-            <a href='/viewProduct.php?id={$data[$i]['id']}'>
+            <a href='/BurgerShack-CMPE-272/viewProduct.php?id={$data[$i]['id']}'>
             
                 <img src={$data[$i]['image']} class='img-fluid' alt=''>
                 <br>

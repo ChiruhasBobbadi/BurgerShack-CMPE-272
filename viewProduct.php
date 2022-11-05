@@ -105,7 +105,7 @@ if (mysqli_num_rows($result) === 0) {
     $sql = "INSERT INTO products (id,name,calories,image,count) values ({$id},'{$data['name']}','{$data['calories']}','{$data['image']}',1)";
 
     $result2 = $conn->query($sql);
-    $result2->free();
+
 
 }else{
     while($row = $result -> fetch_assoc()){
@@ -128,9 +128,6 @@ setcookie($cookie_name,$cookie_val,time()+60*60*24,'/');
 ?>
 
 
-<?php
-ob_end_flush(); // Flush the output from the buffer
-?>
 <!doctype html>
 <html lang='en'>
 <head>
@@ -139,7 +136,7 @@ ob_end_flush(); // Flush the output from the buffer
     <meta name='viewport' content='width=device-width, maximum-scale=1'>
 
 
-    <link rel='shortcut icon' type='image/x-icon' href='/BurgerShack/favicon.png'/>
+    <link rel='shortcut icon' type='image/x-icon' href='/BurgerShack-CMPE-272/favicon.png'/>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
 
@@ -148,7 +145,7 @@ ob_end_flush(); // Flush the output from the buffer
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
 
-    <link href='BurgerShack/css/style.css' rel='stylesheet' type='text/css'>
+    <link href='BurgerShack-CMPE-272/css/style.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
           integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
 
