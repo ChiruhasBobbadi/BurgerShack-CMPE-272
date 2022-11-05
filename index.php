@@ -37,10 +37,11 @@
 <body>
 
 <!--todo-->
-<?php require "dbconnect.php" ?>
+    <?php require "dbconnect.php" ?>
 <?php require "navbar.php" ?>
 <?php require "home.php" ?>
 <?php require "about.php" ?>
+<?php require "recents.php"?>
 <?php require "menu.php" ?>
 <?php require "news.php" ?>
 <?php require "users.php" ?>
@@ -124,7 +125,7 @@
 
 
 
-<?php require "includes/devContact.php" ?>
+<?php require "devContact.php" ?>
 
 
 
