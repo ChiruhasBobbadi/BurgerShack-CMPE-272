@@ -37,7 +37,7 @@
 <body>
 
 <!--todo-->
-    <?php require "dbconnect.php" ?>
+<?php require "dbconnect.php" ?>
 <?php require "navbar.php" ?>
 <?php require "home.php" ?>
 <?php require "about.php" ?>
@@ -119,6 +119,8 @@
 
             ?>
         </table>
+
+
 
     </div>
 </section>
